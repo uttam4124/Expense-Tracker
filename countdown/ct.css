@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+*{
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url("https://images.pexels.com/photos/2665112/pexels-photo-2665112.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+    background-position: center ;
+    min-height: 100vh;
+    
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    font-family: "roboto",Arial;
+    margin: 0;
+}
+h1{
+    font-size:10vh;
+    color: cornflowerblue;
+    
+}
+.countdown-timer{
+    display: flex;
+    
+}
+.big_text{
+    font-size: 3rem;
+    line-height:1;
+    margin:0 2rem;
+    color:grey
+}
+.countdown-el {
+text-align: center;
+}
+.countdown-el span{
+font-size: 1rem;
+}
